@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  height: 100%;
+}
+
+.hero {
+  background-image: url("green-splash.avif");
+  background-size: cover;
+  width: 25%;
+  height: 100vh;
+}
+
+.hero h1 {
+  color: white;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
