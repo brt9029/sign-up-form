@@ -45,7 +45,7 @@
         <div class="row">
           <div class="field">
             <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email" />
+            <input type="email" name="email" id="email" pattern="[A-Za-z\d]{1,}\@[A-Za-z\d]{1,}\.(com|ca|gov|edu|org|net)" required />
           </div>
 
           <div class="field">
@@ -57,13 +57,13 @@
         <div class="row">
           <div class="field">
             <label for="password">PASSWORD</label>
-            <input type="password" name="password" id="password" />
+            <input type="password" name="password" id="password" required />
             <span id="error">* Passwords do not match</span>
           </div>
 
           <div class="field">
             <label for="cpassword">CONFIRM PASSWORD</label>
-            <input type="password" name="cpassword" id="cpassword" />
+            <input type="password" name="cpassword" id="cpassword" required />
           </div>
         </div>
       </div>
